@@ -5,7 +5,7 @@ import 'package:sqflite/sqflite.dart';
 import 'package:path_provider/path_provider.dart';
 
 class DatabaseUtil {
-  static  Database _database;
+  static late Database _database;
 
   static final DatabaseUtil db = DatabaseUtil._();
 

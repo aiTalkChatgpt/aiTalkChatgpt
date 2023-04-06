@@ -1,6 +1,5 @@
+import 'package:ai_talk/ui/MyAPP.dart';
 import 'package:flutter/material.dart';
-
-import 'MyAPP.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:ffi';
+import 'package:ai_talk/utils/data_util.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/services.dart';
-import 'data_util.dart';
 
 class AiTalk {
    final MethodChannel _listenChannel = const MethodChannel('my_app/listenChannel');
